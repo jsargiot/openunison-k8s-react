@@ -8,5 +8,4 @@ RUN chmod -R 755 /var/www
 
 USER www-data
 
-
 CMD ["/usr/sbin/nginx"]

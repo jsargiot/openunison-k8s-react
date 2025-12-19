@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 RUN apt update;DEBIAN_FRONTEND=noninteractive apt install -y  nginx;apt -y upgrade;apt clean;rm -rf /var/lib/apt/lists/* \
     rm -rf /var/www/html/index.nginx-debian.html 
